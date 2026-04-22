@@ -3,7 +3,7 @@
 #git commit -m 
 #git push 
 def table(number):
-    for i in range(0,11):
+    for i in range(1,11):
         print(f"{number}* {i} = {number*i}")
     
 table(int(input("Enter a number: ")))
